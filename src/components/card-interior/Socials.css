@@ -1,0 +1,98 @@
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  width: inherit;
+  margin: 2px 0;
+}
+
+.social-icons img {
+  height: 24px;
+  width: 24px;
+  margin: 0 auto;
+  filter: invert(1);
+  transition: filter 0.3s ease-out;
+}
+
+.social-icons img:hover {
+  cursor: pointer;
+  transition: filter 0.3s ease-out;
+  filter: invert(0);
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .social-icons {
+    margin: 1.6px 0;
+  }
+
+  .social-icons img {
+    height: 19.2px;
+    width: 19.2px;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1000px) {
+  .social-icons {
+    margin: 1.2px 0;
+  }
+
+  .social-icons img {
+    height: 14.4px;
+    width: 14.4px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 850px) {
+  .social-icons {
+    margin: 1px 0;
+  }
+
+  .social-icons img {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 700px) {
+  .social-icons {
+    align-items: initial;
+    justify-content: initial;
+    margin: 0.9px 0;
+  }
+
+  .social-icons img {
+    height: 19.2px;
+    width: 19.2px;
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 530px) {
+  /* max phone width is 480px */
+  .social-icons {
+    align-items: initial;
+    justify-content: initial;
+    margin: 0.8px 4px;
+  }
+
+  .social-icons img {
+    height: 9.6px;
+    width: 9.6px;
+    margin: 0 4px;
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 370px) {
+  .social-icons {
+    align-items: initial;
+    justify-content: initial;
+    margin: 0.72px 5px;
+  }
+
+  .social-icons img {
+    height: 8.6px;
+    width: 8.6px;
+    margin: 0 2px;
+  }
+}

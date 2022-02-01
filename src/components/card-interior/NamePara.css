@@ -1,0 +1,62 @@
+.name-paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: fit-content;
+  padding: 5px 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  z-index: 2;
+  transition: text-decoration 0.3s ease-out;
+  text-decoration: none;
+}
+
+.name-paragraph:hover {
+  transition: text-decoration 0.3s ease-in;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .name-paragraph {
+    padding: 4px 16px;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1000px) {
+  .name-paragraph {
+    padding: 3px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 850px) {
+  .name-paragraph {
+    padding: 2.5px 10px;
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 700px) {
+  .name-paragraph {
+    padding: 2.2px 8.8px;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 530px) {
+  .name-paragraph {
+    padding: 2px 8px;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 370px) {
+  .name-paragraph {
+    padding: 1.8px 7.2px;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+}

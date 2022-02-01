@@ -1,0 +1,60 @@
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(184, 183, 183);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.circle img {
+  border-radius: 50%;
+  height: inherit;
+  width: inherit;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .circle {
+    height: 85px;
+    width: 85px;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1000px) {
+  .circle {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 850px) {
+  .circle {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 700px) {
+  .circle {
+    height: 85px;
+    width: 85px;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 530px) {
+  /* max phone width is 480px */
+  .circle {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 370px) {
+  .circle {
+    height: 30px;
+    width: 30px;
+  }
+}
