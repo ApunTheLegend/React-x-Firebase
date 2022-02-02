@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import Background from './components/Background'
+import Auth from './components/authentication/Auth'
 import { db } from './firebase-config'
 import { collection, getDocs } from 'firebase/firestore'
 
@@ -26,6 +27,7 @@ const App = () => {
 
   return (
     <div>
+      <Auth />
       <Background sentUserData={usersArray} />
     </div>
   )

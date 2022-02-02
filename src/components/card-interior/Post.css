@@ -33,7 +33,7 @@
 
 @media only screen and (min-width: 530px) and (max-width: 700px) {
   .post-paragraph p {
-    /* padding: 0.4px 1.6px; */
+    height: 3vh;
     padding: 2.2px 8.8px;
     font-size: 0.8rem;
   }
@@ -49,6 +49,7 @@
 
 @media only screen and (min-width: 250px) and (max-width: 370px) {
   .post-paragraph p {
+    height: 2.5vh;
     padding: 0.6px 7.2px;
     margin: 0;
     font-size: 0.3rem;
