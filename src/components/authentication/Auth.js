@@ -80,7 +80,7 @@ const Auth = () => {
             </div>
             <div className='auth-entry-section'>
                 <div className='auth-split'>
-                    <h4>Login</h4>
+                    <h4>Log In</h4>
                     <input 
                         className='auth-input'
                         placeholder='Email...'
